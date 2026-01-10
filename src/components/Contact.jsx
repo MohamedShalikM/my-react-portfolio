@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../css/contact.css";
 
@@ -8,11 +8,6 @@ function Contact() {
     email: "",
     message: "",
   });
-  const [status, setStatus] = useState(""); // For success/error messages
-
-  useEffect(() => {
-    emailjs.init(import.meta.env.REACT_APP_EMAILJS_PUBLIC_KEY || "YOUR_PUBLIC_KEY");
-  }, []);
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -20,28 +15,37 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const serviceId = import.meta.env.REACT_APP_EMAILJS_SERVICE_ID || "YOUR_SERVICE_ID";
-    const templateId = import.meta.env.REACT_APP_EMAILJS_TEMPLATE_ID || "YOUR_TEMPLATE_ID";
 
-    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form)
-      .then((result) => {
-        setStatus("Message sent successfully!");
-        setForm({ name: "", email: "", message: "" });
-      })
-      .catch((error) => {
-        setStatus("Failed to send message. Please try again.");
-        console.error("EmailJS error:", error);
-      });
+    emailjs
+      .send(
+        "service_j6o5uk5", // EmailJS Service ID
+        "template_hakz27a", // EmailJS Template ID
+        {
+          from_name: form.name,
+          from_email: form.email,
+          message: form.message,
+        },
+        "vd_arHz-7A_cECdTO" // EmailJS Public Key
+      )
+      .then(
+        () => {
+          alert("Message sent successfully!");
+          setForm({ name: "", email: "", message: "" });
+        },
+        (error) => {
+          console.error("EmailJS Error:", error);
+          alert("Failed to send message. Please try again.");
+        }
+      );
   };
 
   return (
     <section className="contact-section" id="contact">
       <h2 className="contact-title">Contact Me</h2>
       <p className="contact-sub">
-        Let’s connect! Feel free to reach out for collaborations or opportunities.
+        Let’s connect! Feel free to reach out for collaborations or
+        opportunities.
       </p>
-
-      {status && <p className={status.includes("successfully") ? "success" : "error"}>{status}</p>}
 
       <form className="contact-form" onSubmit={handleSubmit}>
         <input
@@ -56,18 +60,16 @@ function Contact() {
         <input
           type="email"
           name="email"
-          placeholder="Your Email"
+          placeholder="Your Gmail ID"
           value={form.email}
           onChange={handleChange}
           required
-          autoComplete="off"
         />
 
         <textarea
           name="message"
           placeholder="Your Message"
           rows="5"
-          cols="10"
           value={form.message}
           onChange={handleChange}
           required
