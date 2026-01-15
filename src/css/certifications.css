@@ -36,6 +36,13 @@
   box-shadow: 0 0 25px rgba(166, 95, 255, 0.25);
   position: relative;
 }
+.cert-card a{
+  text-decoration: none;
+  color:White;
+}
+.cert-card a:hover{
+  color:#b17cff;
+}
 
 .cert-card:hover {
   transform: translateY(-10px);
