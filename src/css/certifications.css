@@ -38,10 +38,19 @@
 }
 .cert-card a{
   text-decoration: none;
-  color:White;
 }
-.cert-card a:hover{
-  color:#b17cff;
+
+.cert-card a span{
+  padding:8px; 
+  color:#fff;
+  position: relative;
+  top:12px;
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+  border-radius:20px;
+  font-size:12px;
+}
+.cert-card a span:hover{
+   color:#b17cff;
 }
 
 .cert-card:hover {
@@ -71,6 +80,10 @@
   margin-bottom: 8px;
 }
 
+.cert-img{
+  object-fit: cover;
+  width:30px;
+}
 .cert-issuer {
   display: block;
   font-size: 14px;

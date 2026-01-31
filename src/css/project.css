@@ -47,7 +47,12 @@
   font-size: 22px;
   margin-bottom: 10px;
 }
-
+.project-img{
+   object-fit: cover;
+   width:280px;
+   border:1px solid #d4d1d1;
+   border-radius:5px;
+}
 .project-desc {
   font-size: 14px;
   opacity: 0.85;

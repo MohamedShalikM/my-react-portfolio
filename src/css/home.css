@@ -133,7 +133,7 @@ nav ul li:hover {
 
 .hero {
   width: 55%;
-  margin: 10% auto 0 auto;
+  margin: 5% auto 0 auto;
   text-align: center;
   animation: fadeUp 1s ease;
 }
