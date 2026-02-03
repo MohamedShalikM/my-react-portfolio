@@ -83,14 +83,16 @@
   border-radius: 25px;
   font-size: 14px;
   text-decoration: none;
+  font-family: 'Poppins',sans-serif;
   color: #fff;
+  font-weight: bold;
   border: 1.5px solid rgba(255, 255, 255, 0.35);
-  background: rgba(255, 255, 255, 0.08);
+  background: linear-gradient(135deg, #b17cff, #79d7ef);
   transition: 0.3s ease;
 }
 
 .project-btn:hover {
-  background: rgba(255, 255, 255, 0.18);
+  background: linear-gradient(135deg,#90e8ff,#b17cff);
   transform: translateY(-3px);
 }
 

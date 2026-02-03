@@ -186,9 +186,10 @@ nav ul li:hover {
   padding: 15px 28px;
   border-radius: 30px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: bold;
+  font-family: 'Poppins',sans-serif;
   border: 1.8px solid rgba(255, 255, 255, 0.35);
-  background: rgba(255, 255, 255, 0.08);
+  background: linear-gradient(135deg, #b17cff, #90e8ff);
   color: #fff;
   cursor: pointer;
   backdrop-filter: blur(14px);
@@ -198,7 +199,7 @@ nav ul li:hover {
 
 .hero button:hover {
   transform: translateY(-7px);
-  background: rgba(255, 255, 255, 0.18);
+  background: linear-gradient(135deg,#90e8ff,#b17cff );
   box-shadow: 0 0 30px rgba(166, 95, 255, 0.55);
 }
 
@@ -271,10 +272,8 @@ nav ul li:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-
   cursor: pointer;
   transition: all 0.3s ease;
-
   animation: floatUp 2s ease-in-out infinite;
 }
 

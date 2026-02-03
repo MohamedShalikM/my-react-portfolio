@@ -93,7 +93,7 @@ function Certifications() {
             <img className="cert-img" src={cert.img} alt={cert.title} />
             <span className="cert-issuer">{cert.issuer}</span>
             <span className="cert-year">{cert.year}</span>
-            <a href={cert.link} target="_blank"><span>View Certificate</span></a>
+            <a href={cert.link} target="_blank"><span className='certBtn'>View Certificate</span></a>
           </div>
         ))}
       </div>
