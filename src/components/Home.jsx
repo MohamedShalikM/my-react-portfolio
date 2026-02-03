@@ -25,8 +25,8 @@ function Home(){
      <nav id="home">
       <span>Mohamed Shalik</span> 
       <ul>
-        <li className="active"><a href="/" >home</a></li>
-        <li><a href="#contact">contact me</a></li>
+        <a href="/" ><li className="active">home</li></a>
+        <a href="#contact"><li>contact me</li></a>
       </ul>
      </nav>
       <div className="hero">
