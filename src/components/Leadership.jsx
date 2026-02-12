@@ -3,25 +3,25 @@ import "../css/leadership.css";
 
 const leaderships = [
   {
-    role: "Team Lead – Full Stack Project",
+    role: "Team Lead –YOLOv8 Leaf Disease Detection (Django)",
     organization: "Final Year Project",
     duration: "2026",
     description:
-      "Led a team of 4 developers, coordinated tasks, reviewed code, and ensured timely delivery of a full-stack web application."
+      "Led a team of 4 developers, coordinated tasks, reviewed code, and ensured timely delivery of a full-stack web application.",
   },
   {
     role: "Symposium Coordinator",
     organization: "J.P. College of Engineering, IT Dept Symposium",
     duration: "2024",
     description:
-      "Coordinated a technical symposium by managing registrations, scheduling events, and guiding participants.Improved skills in event planning, teamwork, and communication."
+      "Coordinated a technical symposium by managing registrations, scheduling events, and guiding participants.Improved skills in event planning, teamwork, and communication.",
   },
   {
     role: "Debuggining Competition Organizer",
     organization: "J.P. College of Engineering, Geek Social Club",
     duration: "2024",
     description:
-      "Organized a debugging competition by preparing coding problem statements and evaluating solutions.Strengthened leadership and problem-solving abilities while promoting peer learning."
+      "Organized a debugging competition by preparing coding problem statements and evaluating solutions.Strengthened leadership and problem-solving abilities while promoting peer learning.",
   },
 ];
 

@@ -7,35 +7,38 @@ import Project4 from '../assets/Drivex Magazine.png';
 const projects = [
   {
     title: "Personal Portfolio Website",
-    description: "Developed a dynamic personal portfolio using React for component-based architecture, HTML for semantic structure, and CSS for responsive styling across devices.Features include animated project galleries, skill progress bars, smooth scrolling navigation, and a contact form with form validation, all optimized for performance and accessibility.Highlights proficiency in React hooks, state management, modern CSS (Flexbox/Grid), and responsive design—ideal for frontend developer or UI/UX roles.",
+    description:
+      "Developed a dynamic personal portfolio using React for component-based architecture, HTML for semantic structure, and CSS for responsive styling across devices.Features include animated project galleries, skill progress bars, smooth scrolling navigation, and a contact form with form validation, all optimized for performance and accessibility.Highlights proficiency in React hooks, state management, modern CSS (Flexbox/Grid), and responsive design—ideal for frontend developer or UI/UX roles.",
     img: Project1,
-    tech: ["React","HTML","CSS", "JavaScript"],
+    tech: ["React", "HTML", "CSS", "JavaScript"],
     link: "#",
   },
   {
     title: "Raftel: Fashion E-Commerce App",
-    description: "Developed a responsive fashion e-commerce website with React frontend (HTML/CSS/JavaScript) for dynamic product displays, Django backend, and SQLite database handling clothing listings, sizes, prices, shopping cart, and checkout processes.",
-    img:Project2,
-    tech: ["React","Node JS","HTML","CSS","Javascript","MongoDB"],
-    link: "#",
+    description:
+      "Developed a responsive fashion e-commerce website with React frontend (HTML/CSS/JavaScript) for dynamic product displays, Django backend, and SQLite database handling clothing listings, sizes, prices, shopping cart, and checkout processes.",
+    img: Project2,
+    tech: ["React", "Node JS", "HTML", "CSS", "Javascript", "MongoDB"],
+    link: "https://raftel-fashion.vercel.app/",
   },
 
   {
-     title: "DriveX: Interactive Car Showroom",
-    description: "Developed a straightforward car showroom site using HTML, CSS, and JavaScript for the frontend, paired with Django backend and SQLite database to showcase car listings, models, and rates.",
-    img:Project3,
-    tech: ["Django","HTML","CSS","Javascript","SQLite"],
+    title: "DriveX: Interactive Car Showroom",
+    description:
+      "Developed a straightforward car showroom site using HTML, CSS, and JavaScript for the frontend, paired with Django backend and SQLite database to showcase car listings, models, and rates.",
+    img: Project3,
+    tech: ["Django", "HTML", "CSS", "Javascript", "SQLite"],
     link: "#",
   },
 
   {
     title: "Drivex: 2025 Luxury Car Magazine",
-    description: "Developed DriveX, a digital magazine exploring top luxury vehicles of 2025, including electric hypercars, performance SUVs, and bespoke designs from brands like Porsche and Ferrari.",
-    img:Project4,
+    description:
+      "Developed DriveX, a digital magazine exploring top luxury vehicles of 2025, including electric hypercars, performance SUVs, and bespoke designs from brands like Porsche and Ferrari.",
+    img: Project4,
     tech: ["HTML", "CSS"],
     link: "https://drivex-magazine.neocities.org/",
   },
-
 ];
 
 function Project() {
