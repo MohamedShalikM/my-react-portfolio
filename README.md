@@ -1,16 +1,37 @@
-# React + Vite
+Live Site: https://my-react-portfolio-m7yxjgjpz-mohamed-shaliks-projects.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern personal portfolio website built with React and Vite, featuring glassmorphism UI design, smooth animations, intuitive navigation, and EmailJS-powered contact form.
 
-Currently, two official plugins are available:
+Features:
+  Glassmorphism Design: Elegant translucent containers with backdrop blur effects for a premium modern look.
+  Responsive Navigation: Sleek navbar with smooth scroll and mobile hamburger menu.
+  EmailJS Contact Form: Direct email notifications from user submissions—no backend required.
+  Fast Performance: Optimized with Vite for instant builds and lightning-fast loads.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack:
+  React + Vite | HTML |  CSS | EmailJS 
 
-## React Compiler
+Quick Start:
+# Clone the repo
+  git clone https://github.com/MohamedShalikM/my-reactportfolio.git
+  cd my-portfolio-react-vite
+  
+# Install dependencies
+npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Run development server
+npm run dev
 
-## Expanding the ESLint configuration
+Sections:
+Home: Engaging hero section featuring animated text effect and prominent call-to-action buttons.
+About: Professional overview highlighting personal background and career objectives.
+Technical Skills: Interactive progress bars showcasing core technical competencies and proficiency levels.
+Projects: Curated portfolio grid displaying project cover images, detailed descriptions, and live website links for direct access.
+Internship Experience: Professional internship history detailing key responsibilities and technical skills applied during tenure.
+Education: Comprehensive academic qualifications with institutions, degrees, and relevant achievements.
+Certifications: Verified course completions from leading platforms, each with accessible verification links.
+Leadership: Documented leadership roles and contributions across professional and academic experiences.
+Contact: Fully functional contact form integrated with EmailJS for seamless client notifications.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+   
