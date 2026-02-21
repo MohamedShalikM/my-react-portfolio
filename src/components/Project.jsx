@@ -15,8 +15,7 @@ const projects = [
   },
   {
     title: "Raftel: Fashion E-Commerce App",
-    description:
-      "Developed a responsive fashion e-commerce website with React frontend (HTML/CSS/JavaScript) for dynamic product displays, Django backend, and SQLite database handling clothing listings, sizes, prices, shopping cart, and checkout processes.",
+    description:"Developed a fully responsive fashion e-commerce website featuring a React frontend for dynamic product displays, a Node.js and Express.js backend, and MongoDB for managing clothing listings, pricing, shopping cart functionality, and checkout processes.",
     img: Project2,
     tech: ["React", "Node JS", "HTML", "CSS", "Javascript", "MongoDB"],
     link: "https://raftel-fashion.vercel.app/",
