@@ -8,14 +8,15 @@ const projects = [
   {
     title: "Personal Portfolio Website",
     description:
-      "Developed a dynamic personal portfolio using React for component-based architecture, HTML for semantic structure, and CSS for responsive styling across devices.Features include animated project galleries, skill progress bars, smooth scrolling navigation, and a contact form with form validation, all optimized for performance and accessibility.Highlights proficiency in React hooks, state management, modern CSS (Flexbox/Grid), and responsive design—ideal for frontend developer or UI/UX roles.",
+      "Developed a responsive React portfolio with animated project galleries, skill progress bars, smooth scrolling, and validated contact form. Leverages semantic HTML, Flexbox CSS, and modern responsive design for optimal performance and accessibility—perfect for frontend/UI roles.",
     img: Project1,
     tech: ["React", "HTML", "CSS", "JavaScript"],
-    link: "#",
+    link: "https://my-react-portfolio-ashy.vercel.app/",
   },
   {
-    title: "Raftel: Fashion E-Commerce App",
-    description:"Developed a fully responsive fashion e-commerce website featuring a React frontend for dynamic product displays, a Node.js and Express.js backend, and MongoDB for managing clothing listings, pricing, shopping cart functionality, and checkout processes.",
+    title: "Elraft: Fashion E-Commerce App",
+    description:
+      "Developed a fully responsive fashion e-commerce website featuring a React frontend for dynamic product displays, a Node.js and Express.js backend, and MongoDB for managing clothing listings, pricing, shopping cart functionality, and checkout processes.",
     img: Project2,
     tech: ["React", "Node JS", "HTML", "CSS", "Javascript", "MongoDB"],
     link: "https://raftel-fashion.vercel.app/",
