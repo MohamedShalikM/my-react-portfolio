@@ -2,13 +2,13 @@ import React from "react";
 import "../css/experience.css";
 
 const experiences = [
-{
+  {
     role: "React Developer Intern",
     company: "Vinusp Infotech Pvt Ltd, Tenkasi",
-    duration: "Nov 2025 - Jan 2026",
+    duration: "Nov 2025 - Feb 2026",
     description:
-      "Enhanced a responsive e-commerce website using HTML, CSS, and JavaScript, enabling smooth product showcase,browsing, and user interaction.",
-    skills: ["ReactJS", "HTML","CSS","Javascript","NodeJS","MongoDB"],
+      "Developed a full-stack e-commerce website using React for the responsive frontend and Node.js with Express.js backend, integrated with MongoDB for user authentication and secure checkout functionality. Implemented dynamic product cards, advanced filtering options (price high-to-low, low-to-high, and new arrivals), and an engaging hero section with smooth transitions to enhance user experience and browsing efficiency.",
+    skills: ["ReactJS", "HTML", "CSS", "Javascript", "NodeJS","ExpressJS","MongoDB"],
   },
 
   {
@@ -17,7 +17,7 @@ const experiences = [
     duration: "Jul 2025 - Aug 2025",
     description:
       "Enhanced a responsive e-commerce website using HTML, CSS, and JavaScript, enabling smooth product showcase,browsing, and user interaction.",
-    skills: ["Django", "HTML","CSS","Javascript","SQLite"],
+    skills: ["Django", "HTML", "CSS", "Javascript", "SQLite"],
   },
   {
     role: "Python Full Stack",
@@ -25,7 +25,7 @@ const experiences = [
     duration: "Jan 2025 - Feb 2025",
     description:
       "Developed a Car Showroom Website using Django, HTML, CSS, JavaScript.Implemented backend functionality for managing car listings, user authentication, and database integration.",
-    skills: ["Django", "HTML","CSS","Javascript","SQLite"],
+    skills: ["Django", "HTML", "CSS", "Javascript", "MySQL"],
   },
 ];
 
