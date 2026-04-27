@@ -3,8 +3,8 @@ import "../css/leadership.css";
 
 const leaderships = [
   {
-    role: "Team Lead –YOLOv8 Leaf Disease Detection (Django)",
-    organization: "Final Year Project",
+    role: "Team Lead –YOLOv8 Leaf Disease Detection",
+    organization: "J.P. College of Engineering, Final Year Project",
     duration: "2026",
     description:
       "Led a team of 4 developers, coordinated tasks, reviewed code, and ensured timely delivery of a full-stack web application.",

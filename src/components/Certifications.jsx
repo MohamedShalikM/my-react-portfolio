@@ -8,8 +8,16 @@ import Cert5 from '../assets/logos/css3.svg';
 import Cert6 from '../assets/logos/js.svg';
 import Cert7 from '../assets/logos/python.svg';
 import Cert8 from '../assets/logos/django.svg';
+import Cert9 from '../assets/logos/react.svg';
 
 const certifications = [
+  {
+   title:"Frontend Developer",
+   issuer: "Vinsup InfoTech Pvt Ltd",
+   year:2026,
+   img:Cert9,
+   link:"https://drive.google.com/file/d/1Pd070bzL6QrQW2B1jWMZu9jczoH9tIpL/view?usp=drive_link"
+  },
   {
     title: "NodeJS Foundation Course",
     issuer: "ScholarHat",

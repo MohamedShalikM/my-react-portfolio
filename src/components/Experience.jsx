@@ -5,10 +5,10 @@ const experiences = [
   {
     role: "React Developer Intern",
     company: "Vinusp Infotech Pvt Ltd, Tenkasi",
-    duration: "Nov 2025 - Feb 2026",
+    duration: "Nov 2025 - Mar 2026",
     description:
-      "Developed a full-stack e-commerce website using React for the responsive frontend and Node.js with Express.js backend, integrated with MongoDB for user authentication and secure checkout functionality. Implemented dynamic product cards, advanced filtering options (price high-to-low, low-to-high, and new arrivals), and an engaging hero section with smooth transitions to enhance user experience and browsing efficiency.",
-    skills: ["ReactJS", "HTML", "CSS", "Javascript", "NodeJS","ExpressJS","MongoDB"],
+      "Developed a modern, responsive portfolio website using React.js, HTML, CSS, and JavaScript to showcase personal projects and skills. Implemented smooth scrolling for enhanced user navigation, glassmorphism UI effects for a sleek and contemporary design, and EmailJS integration for seamless contact form functionality. Created an attractive, neat interface that improved user engagement and visual appeal, demonstrating proficiency in modern frontend technologies and UI/UX best practices.",
+    skills: ["ReactJS", "HTML", "CSS", "Javascript"],
   },
 
   {
@@ -16,8 +16,8 @@ const experiences = [
     company: "Eagle-HiTech SoftClou Pvt Ltd, Chennai",
     duration: "Jul 2025 - Aug 2025",
     description:
-      "Enhanced a responsive e-commerce website using HTML, CSS, and JavaScript, enabling smooth product showcase,browsing, and user interaction.",
-    skills: ["Django", "HTML", "CSS", "Javascript", "SQLite"],
+      "Developed a full-stack e-commerce website using React for the responsive frontend and Node.js with Express.js backend, integrated with MongoDB for user authentication and secure checkout functionality. Implemented dynamic product cards, advanced filtering options (price high-to-low, low-to-high, and new arrivals), and an engaging hero section with smooth transitions to enhance user experience and browsing efficiency.",
+    skills: ["NodeJs","ReactJS", "HTML", "CSS", "Javascript", "MongoDB"],
   },
   {
     role: "Python Full Stack",
@@ -25,7 +25,7 @@ const experiences = [
     duration: "Jan 2025 - Feb 2025",
     description:
       "Developed a Car Showroom Website using Django, HTML, CSS, JavaScript.Implemented backend functionality for managing car listings, user authentication, and database integration.",
-    skills: ["Django", "HTML", "CSS", "Javascript", "MySQL"],
+    skills: ["Django", "HTML", "CSS", "Javascript", "SQlite"],
   },
 ];
 

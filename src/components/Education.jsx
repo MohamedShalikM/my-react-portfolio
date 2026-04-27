@@ -14,6 +14,7 @@ const education = [
     duration: "2021 – 2022",
     grade:"Percentage: 74.5%",
   },
+ 
 ];
 
 function Education() {

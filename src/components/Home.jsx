@@ -32,7 +32,7 @@ function Home(){
       <div className="hero">
             <span className="name">Hi, I am Mohamed Shalik</span>
             <span className="role">{roles[index]}</span>
-            <span className="desc">“I build modern, responsive web experiences using React, JavaScript, and clean UI design.”</span><br />
+            <span className="desc">I can build responsive UIs, dynamic web apps, and scalable APIs using React, Node.js, Express, and MongoDB.”</span><br />
           <a href="#project"><button>View My Work</button></a>
       </div>   
       <div className="social-links">
