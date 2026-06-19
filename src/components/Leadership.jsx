@@ -7,7 +7,7 @@ const leaderships = [
     organization: "J.P. College of Engineering, Final Year Project",
     duration: "2026",
     description:
-      "Led a team of 4 developers, coordinated tasks, reviewed code, and ensured timely delivery of a full-stack web application.",
+      "Led a team of 4 developers, coordinated tasks, reviewed code, and ensured timely delivery of a full-stack + AI web application.",
   },
   {
     role: "Symposium Coordinator",

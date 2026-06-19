@@ -14,6 +14,8 @@ body{
   color: #fff;
   font-family: "Inter", sans-serif;
   animation: fadeUp 1s ease;
+  text-align: justify;
+
 }
 
 @keyframes fadeUp {

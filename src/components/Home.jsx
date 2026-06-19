@@ -7,8 +7,7 @@ import uparrow from '../assets/logos/Up_arrow.svg';
 
 function Home(){
 
-  const roles = ["Full Stack Web Developer","Reactjs Developer","Python Progammer","Nodejs Developer"]
-
+  const roles = ["Full Stack Web Developer","Reactjs Developer","Expressjs Developer","Nodejs Developer","Python Progammer","Javascript Developer"]
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
