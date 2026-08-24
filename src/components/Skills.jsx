@@ -8,6 +8,7 @@ import mongoLogo from "../assets/logos/mongodb.svg";
 import mysqlLogo from "../assets/logos/mysql.svg";
 import gitLogo from "../assets/logos/git.svg";
 import nodeLogo from "../assets/logos/nodejs.svg";
+import tsLogo from "../assets/logos/TypeScript.png"
 import '../css/skills.css';
 
 const skills = [
@@ -19,9 +20,10 @@ const skills = [
   { id: "mongo",  name: "MongoDB",     logo: mongoLogo,  level: 80 },
   { id: "node",   name: "Node.js",     logo: nodeLogo,   level: 84 },
   { id: "python", name: "Python",      logo: pythonLogo, level: 85 },
-  { id: "django", name: "Django",      logo: djangoLogo, level: 78 },
+  { id: "django", name: "Django",      logo: djangoLogo, level: 50 },
   { id: "mysql",  name: "MySQL",       logo: mysqlLogo,  level: 82 },
   { id: "git",    name: "Git",         logo: gitLogo,    level: 90 },
+  { id: "ts",    name: "TypeScript",   logo: tsLogo,    level: 30 },
  
 ];
 

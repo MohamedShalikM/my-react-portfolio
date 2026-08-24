@@ -6,13 +6,19 @@ const education = [
     degree: "Bachelor of Technology (B.Tech) in Information Technology",
     institute: "JP College of Engineering, Tenkasi",
     duration: "2022 – 2026",
-    grade: "CGPA: 8.2"
+    grade: "CGPA: 8.44"
   },
   {
     degree: "Higher Secondary Education (Class 12) - Computer Science",
     institute: "SeventhDay Adventist Matric Higher Secondary School, Puliangudi. ",
     duration: "2021 – 2022",
     grade:"Percentage: 74.5%",
+  },
+    {
+    degree: "Secondary School Leaving Certificate (SSLC) - 10th Grade",
+    institute: "SeventhDay Adventist Matric Higher Secondary School, Puliangudi. ",
+    duration: "2019 – 2020",
+    grade:"Percentage: 73%",
   },
  
 ];

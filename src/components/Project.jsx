@@ -2,7 +2,7 @@ import React from "react";
 import "../css/project.css";
 import Project1 from '../assets/Portfolio.png';
 import Project2 from '../assets/Raftel Fashion.png';
-import Project3 from '../assets/Drivex Showroom.png';
+// import Project3 from '../assets/Drivex Showroom.png';
 import Project4 from '../assets/Drivex Magazine.png';
 const projects = [
   {
@@ -22,14 +22,14 @@ const projects = [
     link: "https://raftel-fashion.vercel.app/",
   },
 
-  {
-    title: "DriveX: Interactive Car Showroom",
-    description:
-      "Developed a straightforward car showroom site using HTML, CSS, and JavaScript for the frontend, paired with Django backend and SQLite database to showcase car listings, models, and rates.",
-    img: Project3,
-    tech: ["Django", "HTML", "CSS", "Javascript", "SQLite"],
-    link: "#",
-  },
+  // {
+  //   title: "DriveX: Interactive Car Showroom",
+  //   description:
+  //     "Developed a straightforward car showroom site using HTML, CSS, and JavaScript for the frontend, paired with Django backend and SQLite database to showcase car listings, models, and rates.",
+  //   img: Project3,
+  //   tech: ["Django", "HTML", "CSS", "Javascript", "SQLite"],
+  //   link: "#",
+  // },
 
   {
     title: "Drivex: 2025 Luxury Car Magazine",
