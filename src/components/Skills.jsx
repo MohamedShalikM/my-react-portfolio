@@ -8,7 +8,7 @@ import mongoLogo from "../assets/logos/mongodb.svg";
 import mysqlLogo from "../assets/logos/mysql.svg";
 import gitLogo from "../assets/logos/git.svg";
 import nodeLogo from "../assets/logos/nodejs.svg";
-import tsLogo from "../assets/logos/TypeScript.png"
+import tsLogo from "../assets/logos/Typescript.png";
 import '../css/skills.css';
 
 const skills = [
