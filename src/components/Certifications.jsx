@@ -12,6 +12,13 @@ import Cert9 from '../assets/logos/react.svg';
 
 const certifications = [
   {
+    title:'Python Full Stack Training Certificate',
+    issuer: "Besant Technologies",
+    year:2026,
+    img:Cert7,
+    link:"https://drive.google.com/file/d/13pnbELY2rncJV-JVTs-55kQ0ntG-ryLm/view?usp=sharing"
+  },
+  {
    title:"Frontend Developer",
    issuer: "Vinsup InfoTech Pvt Ltd",
    year:2026,

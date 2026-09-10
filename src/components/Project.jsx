@@ -2,8 +2,9 @@ import React from "react";
 import "../css/project.css";
 import Project1 from '../assets/Portfolio.png';
 import Project2 from '../assets/Raftel Fashion.png';
-// import Project3 from '../assets/Drivex Showroom.png';
+import Project3 from '../assets/Leaf Disease Detection.png';
 import Project4 from '../assets/Drivex Magazine.png';
+// import Project5 from '../assets/Drivex Showroom.png';
 const projects = [
   {
     title: "Personal Portfolio Website",
@@ -18,8 +19,15 @@ const projects = [
     description:
       "Developed a fully responsive fashion e-commerce website featuring a React frontend for dynamic product displays, a Node.js and Express.js backend, and MongoDB for managing clothing listings, pricing, shopping cart functionality, and checkout processes.",
     img: Project2,
-    tech: ["React", "Node JS", "HTML", "CSS", "Javascript", "MongoDB"],
+    tech: ["React JS", "Node JS","Express JS", "MongoDB","HTML", "CSS", "Javascript"],
     link: "https://raftel-fashion.vercel.app/",
+  },
+  {
+    title: "Leaf Disease Detection using Yolov8 Deep Learning",
+    description: "Developed a website where farmers can upload their leaf images and get disease identification so that it will be prevent initially.",
+    img: Project3,
+    tech:["Fast API","Yolov8","Ultralytics","Pytorch","Python","OpenCV","PyYAML","Scipy","Torch-Vision","HTML","CSS","JavaScript","ReactJS"],
+    link:"https://leaf-disease-detection-using-yolov8.vercel.app/",
   },
 
   // {
